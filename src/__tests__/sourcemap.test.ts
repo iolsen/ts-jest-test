@@ -1,8 +1,8 @@
 import Test from "../index";
 
 describe("sourcemap", () => {
-  it("throws with bad line number", async () => {
+  it("throws with bad line number", () => {
     let test = new Test();
-    await test.doStuff();
+    test.doStuff();
   });
 });
