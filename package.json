@@ -1,0 +1,32 @@
+{
+  "name": "ts-jest-test",
+  "version": "0.0.1",
+  "description": "sourcemap woes",
+  "repository": "https://github.com/iolsen/ts-jest-test",
+  "author": "iolsen@github.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest --no-cache src/"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.5",
+    "typescript": "^2.8.3"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(j|t)sx?$",
+    "testPathIgnorePatterns": [
+      "node_modules/"
+    ],
+    "cacheDirectory": ".jest/cache"
+  }
+}
