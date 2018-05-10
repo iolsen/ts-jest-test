@@ -1,22 +1,5 @@
 /**
- * long function comment
- *
- *
- *
- *
- *
- *
- *
- *
- *
- */
-export function whatever(): string | null {
-  const aThing = null;
-  return aThing;
-}
-
-/**
- * Another long function header comment
+ * Long function header comment
  *
  *
  *

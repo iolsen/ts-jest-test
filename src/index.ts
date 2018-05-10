@@ -1,7 +1,7 @@
-import * as testModule from "./module";
+import { request } from "./module";
 
 export default class Test {
   public async doStuff() {
-    await testModule.request("this", null, "throws");
+    await request("this", null, "throws");
   }
 }
